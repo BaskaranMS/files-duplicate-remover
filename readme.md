@@ -36,17 +36,17 @@ Files Duplicate Remover is a powerful GUI application that helps you find and ma
 
 ### Installation Methods
 
-#### Method 1: Using npx (recommended - no installation needed)
-
-```
-npx files-duplicate-remover
-```
-
-#### Method 2: Global installation
+#### Method 1: Global installation
 
 ```
 npm install -g files-duplicate-remover
 files-duplicate-remover
+```
+
+#### Method 2: Using npx (no installation needed)
+
+```
+npx files-duplicate-remover
 ```
 
 #### Method 3: Manual Python installation
