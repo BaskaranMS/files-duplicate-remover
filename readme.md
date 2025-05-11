@@ -39,23 +39,16 @@ Files Duplicate Remover is a powerful GUI application that helps you find and ma
 #### Method 1: Global installation
 
 ```
-npm install -g files-duplicate-remover
+npm install -g files-duplicate-remover-cli
 files-duplicate-remover
 ```
 
 #### Method 2: Using npx (no installation needed)
 
 ```
-npx files-duplicate-remover
+npx files-duplicate-remover-cli
 ```
 
-#### Method 3: Manual Python installation
-
-If you prefer to run directly from Python:
-
-```
-pip install -r requirements.txt
-python files_duplicate_remover.py
 ```
 
 ## Usage
@@ -156,8 +149,10 @@ The preview panel shows different tabs based on file type:
 You can modify these Python constants at the top of the script if needed:
 
 ```
-sys.setrecursionlimit(10000)  # Increase if you get recursion errors
-DEFAULT_DUPLICATE_FOLDER = "duplicates"  # Change default duplicates folder name
+
+sys.setrecursionlimit(10000) # Increase if you get recursion errors
+DEFAULT_DUPLICATE_FOLDER = "duplicates" # Change default duplicates folder name
+
 ```
 
 ## License
@@ -167,3 +162,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Note:** Always back up important files before performing bulk delete operations. The developers are not responsible for data loss.
+```
