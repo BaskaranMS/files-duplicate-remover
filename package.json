@@ -1,6 +1,6 @@
 {
   "name": "files-duplicate-remover-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tool to remove duplicate files",
   "main": "index.js",
   "bin": {
